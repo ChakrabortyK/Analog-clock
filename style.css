@@ -1,0 +1,53 @@
+#clockface {
+  margin: auto;
+  border: 2px solid black;
+  background: url("Transparent\ clock.png") no-repeat;
+  background-size: 100%;
+  height: 600px;
+  width: 600px;
+  position: relative;
+
+  /* display: grid;
+  align-items: center;
+  justify-items: center; */
+}
+
+#hour,
+#min,
+#second {
+  border: 2px solid black;
+}
+
+#hour {
+  border: 2px solid rgb(213, 207, 207);
+  background-color: black;
+  height: 145px;
+  width: 2%;
+  position: absolute;
+  left: 293px;
+  top: 151px;
+  transform-origin: bottom center;
+  border-radius: 50%;
+}
+#min {
+  border: 3px dotted rgb(157, 6, 6);
+  height: 209px;
+  width: 1px;
+  position: absolute;
+  left: 295px;
+  top: 84px;
+  transform-origin: bottom center;
+  border-radius: 50%;
+}
+
+#second {
+  background-color: greenyellow;
+  border: 1px dashed rgb(27, 225, 57);
+  height: 209px;
+  width: 1px;
+  position: absolute;
+  left: 299px;
+  top: 89px;
+  transform-origin: bottom center;
+  border-radius: 50%;
+}
